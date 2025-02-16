@@ -1,0 +1,618 @@
+@font-face {
+    font-family: 'fuentequevoyautilizar';
+    src: url(/BreakingBad.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    margin: 0;
+    padding: 0;
+
+    --fuente-titulo: 'fuentequevoyautilizar', helvetica;
+}
+
+body {
+    background-color: #0c3e11;
+}
+
+    /*
+Aqui comienza el index
+*/
+    .fondo {
+        background-image: url(IMG/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .logo {
+        background-image: url(IMG/logo.PNG);
+        display: block;
+        background-size: cover;
+        width: 150px;
+        height: 150px;
+        margin: auto;
+
+
+    }
+
+    .tipografia {
+        text-align: center;
+        color: white;
+        font-family: var(--fuente-titulo);
+        font-size: 40px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+
+    }
+
+    .poster {
+        margin: auto;
+        display: block;
+        width: 700px;
+        height: 300px;
+        background-size: cover;
+        border: 10px brown;
+        border-style: outset;
+        border-radius: 22px;
+    }
+
+
+    /*
+Aqui empieza el formulario 
+*/
+    .formulario {
+        background-color: rgba(63, 61, 61, 0.3);
+        width: 40%;
+        margin: auto;
+    }
+
+    /*
+Aqui empieza la tabla periodica
+*/
+    table {
+        background-color: black;
+        margin: auto;
+        empty-cells: hide;
+        border-spacing: 7px;
+
+    }
+
+    .tamaño {
+        width: 70px;
+        height: 50px;
+    }
+
+    .W {
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        vertical-align: bottom;
+        margin-bottom: 0px;
+        margin-top: -5px;
+        font-family: Helvetica;
+    }
+
+    .Walter_White {
+        font-family: Helvetica;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: -7px;
+
+    }
+
+    .F_WW {
+        display: block;
+        background-size: cover;
+        width: 70px;
+        height: 60px;
+        margin: auto;
+        margin: 0%;
+        padding: 0%;
+
+    }
+
+    .Estilo1 {
+        background-color: #B0D718;
+        width: 80px;
+        height: 50px;
+    }
+
+    .Estilo2 {
+        background-color: #828E50;
+        width: 80px;
+        height: 50px;
+    }
+
+    .DE {
+        font-family: Helvetica;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 1px;
+        margin-top: 0;
+
+    }
+
+    .Don_Eladio {
+        font-family: Helvetica;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 1px;
+    }
+
+    .F_Sk {
+        display: block;
+        background-size: cover;
+        width: 70px;
+        height: 60px;
+        margin: auto;
+        margin-bottom: -10px;
+        margin-top: 0px;
+    }
+
+    .Sk {
+        font-family: Helvetica;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: -20px;
+    }
+
+    .Skyler_White {
+        font-family: Helvetica;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 1px;
+    }
+
+    .Ha {
+        display: block;
+        background-size: cover;
+        width: 77px;
+        height: 130px;
+    }
+
+    .Estilo3 {
+        background-color: #EFF6CC;
+        width: 80px;
+        height: 50px;
+    }
+
+    .St {
+        font-family: Helvetica;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 7px;
+        margin-top: -20px;
+
+    }
+
+    .Steven_Gomez {
+        font-family: Helvetica;
+        color: black;
+        font-size: 8px;
+        text-align: center;
+        margin-top: 1px;
+        margin-bottom: -15px;
+        margin-left: -3px;
+        margin-right: -3px;
+    }
+
+    .Estilo4 {
+        background-color: #89A419;
+        width: 80px;
+        height: 50px;
+    }
+
+    .Sa {
+        font-family: Helvetica;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 7px;
+        margin-top: 0px;
+    }
+
+    .Saul_Goodman {
+        font-family: Helvetica;
+        color: black;
+        font-size: 8px;
+        text-align: center;
+        margin-top: -5px;
+        margin-bottom: 0px;
+        margin-left: -3px;
+        margin-right: -4px;
+
+    }
+
+    .F_Sa {
+        display: block;
+        background-size: cover;
+        width: 55px;
+        height: 60px;
+        margin: auto;
+        margin-bottom: 3px;
+        margin-top: 10px;
+    }
+
+    .J {
+        font-family: Helvetica;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin-top: -5px;
+        margin-bottom: 0px;
+    }
+
+    .Jesse_PinKman {
+        font-family: Helvetica;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        margin-top: -5px;
+        margin-bottom: 0px;
+    }
+
+    .F_Jesse {
+        display: block;
+        background-size: cover;
+        width: 55px;
+        height: 60px;
+        margin: auto;
+        margin-bottom: -7px;
+    }
+
+    .Estilo5 {
+        background-color: #637028;
+        width: 80px;
+        height: 50px;
+    }
+
+    .SP {
+        font-family: Helvetica;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin-top: -5px;
+        margin-bottom: 0px;
+    }
+
+    .Skinny_Pete {
+        font-family: Helvetica;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        margin-top: -5px;
+        margin-bottom: 0px;
+    }
+
+    .Estilo6 {
+        background-color: #BCC49F;
+        width: 80px;
+        height: 50px;
+    }
+
+    .Ga {
+        font-family: Helvetica;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin-top: -5px;
+        margin-bottom: 0px;
+    }
+
+    .Gale {
+        font-family: Helvetica;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        margin-top: -5px;
+        margin-bottom: 0px;
+    }
+
+    .F_Gale {
+        display: block;
+        background-size: cover;
+        width: 55px;
+        height: 50px;
+        margin: auto;
+        margin-bottom: -7px;
+        margin-left: 4px;
+        margin-right: 2px;
+    }
+
+    .To {
+        font-family: Helvetica;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 1px;
+        margin-top: 0;
+    }
+
+    .tortu {
+        font-family: Helvetica;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+
+    .lydia {
+        font-family: Helvetica;
+        color: black;
+        font-size: 7px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .rodarte {
+        font-family: Helvetica;
+        color: black;
+        font-size: 8px;
+        text-align: center;
+        margin-top: -5px;
+    }
+
+    .Dan {
+        font-family: Helvetica;
+        color: black;
+        font-size: 7px;
+        text-align: center;
+        margin-top: -5px;
+    }
+
+    .Estilo7 {
+        background-color: #D5E978;
+        width: 80px;
+        height: 50px;
+    }
+
+    .Donald {
+        font-family: Helvetica;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        margin-top: -5px;
+    }
+
+    .margolis {
+        font-family: Helvetica;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        margin-top: -10px;
+        margin-bottom: 0px;
+    }
+
+    .Jack {
+        font-family: Helvetica;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        margin-top: -3px;
+        margin-bottom: 0px;
+        margin-left: -3px;
+        margin-right: -3px;
+    }
+
+    .Estilo8 {
+        background-color: #C5E24C;
+        width: 80px;
+        height: 50px;
+    }
+
+    .Estilo9 {
+        background-color: #EFF7C8;
+        width: 80px;
+        height: 50px;
+    }
+
+    .Estilo10 {
+        background-color: #AB8FCC;
+        width: 80px;
+        height: 50px;
+    }
+
+    .Bg {
+        font-family: Helvetica;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin-top: -20px;
+        margin-bottom: 0px;
+    }
+
+    .Badger {
+        font-family: Helvetica;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 3px;
+        margin-bottom: 10px;
+    }
+
+    .F_Bg {
+        display: block;
+        background-size: cover;
+        width: 60px;
+        height: 50px;
+        margin: auto;
+        margin-bottom: -30px;
+        margin-left: 10px;
+        margin-right: 2px;
+    }
+
+    .Ma {
+        font-family: Helvetica;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin-top: -50px;
+        margin-bottom: 0px;
+    }
+
+    .Marie {
+        font-family: Helvetica;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        margin-top: -2px;
+        margin-bottom: 10px;
+    }
+
+    .F_Ga {
+        display: block;
+        background-size: cover;
+        width: 55px;
+        height: 60px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: -50px;
+        margin-left: 4px;
+        margin-right: 2px;
+    }
+
+    .Gustavo {
+        font-family: Helvetica;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        margin-top: -2px;
+        margin-bottom: 10px;
+        margin-left: -3px;
+        margin-right: -3px;
+    }
+
+    .F_Ts {
+        display: block;
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        margin-top: -10px;
+        margin-bottom: -50px;
+        margin-left: 4px;
+        margin-right: 2px;
+    }
+
+    .Juan {
+        font-family: Helvetica;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        margin-top: -2px;
+        margin-bottom: 10px;
+        margin-left: -3px;
+        margin-right: -3px;
+    }
+
+    .Estilo11 {
+        background-color: #C2C629;
+        width: 80px;
+        height: 50px;
+    }
+
+    .B {
+        font-family: Helvetica;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin-top: -2px;
+        margin-bottom: 0px;
+    }
+
+    .Blue {
+        font-family: Helvetica;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        margin-top: -2px;
+        margin-bottom: 0px;
+    }
+
+    .Bus {
+        width: 60px;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    .Cristal {
+        width: 60px;
+        height: 55px;
+        margin-left: 10px;
+    }
+
+    .Pizza {
+        width: 55px;
+        height: 55px;
+        margin-left: 10px;
+    }
+
+    .Pistola {
+        width: 60px;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    .clazoncillos {
+        width: 55px;
+        height: 48px;
+        margin-left: 12px;
+    }
+
+    .pocima {
+        width: 45px;
+        height: 48px;
+        margin-left: 12px;
+    }
+
+    .mascara {
+        width: 55px;
+        height: 48px;
+        margin-left: 12px;
+
+    }
+
+    .movil {
+        width: 45px;
+        height: 48px;
+        margin-left: 16px;
+    }
+
+    .plato {
+        width: 50px;
+        height: 55px;
+        margin-left: 14px;
+        margin-bottom: -3px;
+    }
+
+    .mosca {
+        width: 55px;
+        height: 60px;
+        margin-left: 14px;
+    }
+
+    .separacion {
+        margin-top: 15px;
+    }
+
+    .Br_Ba {
+        background-image: url(IMG/cabecera.png);
+        display: block;
+        background-size:cover;
+        width: 700px;
+        height: 320px;
+        margin: auto;
+        
+    }
+

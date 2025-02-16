@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="IMG/icon.png" type="icon">
+    <title>Breaking Bad - Que comience el juego!</title>
+</head>
+
+<body class="fondo">
+    <form class="formulario" action="mailto:raul.rodriguez@proeducaglobal.com" method="post" autocomplete="on"
+        target="_blank">
+        <fieldset class="recuadro">
+            <legend>Datos personales</legend>
+            <br>Nombre (*): <input type="text" placeholder="Nombre Andreea" required>
+            <br>Apellidos (*): <input type="text" placeholder="Apellidos Istrate Istrate" required>
+            <br>DNI: <input type="text" placeholder="Apellidos Istrate Istrate" required>
+            <br>Correo Electrónico (*): <input type="email" placeholder="andreea@email.com" required>
+            <br>Introduzca fecha de nacimiento: <input type="date" min="1900-01-01" max="2025-02-28" step="2">
+            <fieldset>
+                <legend>Seleccionar genro</legend>
+                <input type="radio" name="genero" value="Hombre">Hombre
+                <br><input type="radio" name="genero" value="Mujer">Mujer
+            </fieldset>
+            <fieldset>
+                <legend>Dirección Postal</legend>
+                Calle: <input type="text" placeholder="Calle Hiniesta">
+                <br>Numero: <input type="text" placeholder="Numero 56">
+                <br>Piso: <input type="text" placeholder="Bajo">
+                <br>Codigo Postal: <input type="text" placeholder="CP 49025">
+                <br>Ciudad: <input type="text" placeholder="Ciudad Zamora">
+            </fieldset>
+            <fieldset>
+                <legend> Seleccione uno de los siguientes personajes:</legend>
+                <select name="personajes">
+                    <option value="1">Jessie Pinkman</option>
+                    <option value="2">Walter White</option>
+                    <option value="3">Saul Goodman</option>
+                    <option value="4">Gustavo Fring</option>
+                    <option value="5">Pollos Hermanos</option>
+                    <option value="6">Otros Personajes</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Dejanos tu comentario aquí:</legend>
+                <textarea name="comentario" id="comentario">Escribanos el comentario que desaea dejar</textarea>
+                <br><input type="submit" value="Guardar">
+                <br><input type="reset" value="Borrar">
+            </fieldset>
+            <fieldset>
+                <legend>Adjuntar archivo</legend>
+                Adjunta un archivo: <input type="file" name="adjunto" accept=".pdf" multiple>
+                <br><input type="submit" value="Enviar">
+            </fieldset>
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
