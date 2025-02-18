@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'fuentequevoyautilizar';
-    src: url(BreakingBad.ttf) format('truetype');
+    src: url(../BreakingBad.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,20 +14,21 @@
 
 body {
     background-color: #0c3e11;
+    height: 100vh;
 }
 
     /*
 Aqui comienza el index
 */
     .fondo {
-        background-image: url(IMG/fondo.jpg);
+        background-image: url(../IMG/fondo.jpg);
         background-repeat: no-repeat;
         background-size: cover;
 
     }
 
     .logo {
-        background-image: url(IMG/logo.PNG);
+        background-image: url(../IMG/logo.PNG);
         display: block;
         background-size: cover;
         width: 150px;
@@ -607,7 +608,7 @@ Aqui empieza la tabla periodica
     }
 
     .Br_Ba {
-        background-image: url(IMG/cabecera.png);
+        background-image: url(../IMG/cabecera.png);
         display: block;
         background-size:cover;
         width: 700px;
